@@ -46,17 +46,3 @@ Console.WriteLine($"가장 비싼 아이템: {maxItemName}");
 Console.WriteLine($"가장 가벼운 아이템: {minItemName}");
 
 
-struct InventoryItem
-{
-    public string Name { get; set; }
-    public double Weight;
-    public int Price;
-
-    public InventoryItem(string name, double weight, int price)
-    {
-        Name = name;
-        Weight = weight;
-        Price = price;
-    }
-        
-}
